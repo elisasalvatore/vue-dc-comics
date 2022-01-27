@@ -48,6 +48,7 @@ export default {
     nav {
       ul {
         display: flex;
+        align-items: center;
       }
 
       li {
@@ -56,7 +57,9 @@ export default {
 
         &:hover {
           color: $blue-dc;
-          // border-bottom: 3px solid $blue-dc;
+          padding-top: 42px;
+          padding-bottom: 36px;
+          border-bottom: 5px solid $blue-dc;
         }
       }
     }
