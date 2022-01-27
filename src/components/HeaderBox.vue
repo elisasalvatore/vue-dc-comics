@@ -29,7 +29,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-    @import '@/style/variables.scss';
+  @import '@/style/variables.scss';
 
   header {
     margin: 0 auto;

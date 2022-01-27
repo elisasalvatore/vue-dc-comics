@@ -1,21 +1,21 @@
 <template>
   <div id="app">
     <HeaderBox/>
-    <MainContent/>
+    <JumboContent/>
     <FooterDc/>
   </div>
 </template>
 
 <script>
 import HeaderBox from './components/HeaderBox.vue'
-import MainContent from './components/MainContent.vue'
+import JumboContent from './components/JumboContent.vue'
 import FooterDc from './components/FooterDc.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderBox,
-    MainContent,
+    JumboContent,
     FooterDc,
   }
 }
@@ -23,6 +23,5 @@ export default {
 
 <style lang="scss">
   @import './style/main.scss';
-
 
 </style>
