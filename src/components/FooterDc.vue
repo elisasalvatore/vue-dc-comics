@@ -28,9 +28,68 @@
                 </li>
             </ul>
         </div>
-        <div class="ft-center"></div>
-        <div class="ft-bottom"></div>
+        <div class="ft-center">
+            <div class="ft-center-left">
+                <ul>
+                    <h5>DC COMICS</h5>
+                    <li>Characters</li>
+                    <li>Comics</li>
+                    <li>Movies</li>
+                    <li>TV</li>
+                    <li>Games</li>
+                    <li>Videos</li>
+                    <li>News</li>
+                </ul>
 
+                <ul>
+                    <h5>DC</h5>
+                    <li>Terms Of Use</li>
+                    <li>Privacy policy (New)</li>
+                    <li>Ad Choices</li>
+                    <li>Advertaising</li>
+                    <li>Subscriptions</li>
+                    <li>Talent Workshops</li>
+                    <li>CPSC Certificates</li>
+                    <li>Rating</li>
+                    <li>Shop Help</li>
+                    <li>Contact Us</li>
+                </ul>
+
+
+                <ul>
+                    <h5>SITES</h5>
+                    <li>DC</li>
+                    <li>MAD Magazine</li>
+                    <li>DC Kids</li>
+                    <li>DC Universe</li>
+                    <li>DC Power Visa</li>
+                </ul>
+
+                <ul>
+                    <h5>SHOP</h5>
+                    <li>Shop DC</li>
+                    <li>Shop DC Collectibles</li>
+                </ul>
+            </div>
+
+            <div class="ft-center-right">
+                <img src="@/assets/dc-logo-bg.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="ft-bottom">
+            <button>SIGN-UP NOW!</button>
+
+            <div class="follow-us">
+                FOLLOW US
+                <img src="@/assets/footer-facebook.png" alt="facebook">
+                <img src="@/assets/footer-twitter.png" alt="twitter">
+                <img src="@/assets/footer-youtube.png" alt="youtube">
+                <img src="@/assets/footer-pinterest.png" alt="pinterest">
+                <img src="@/assets/footer-periscope.png" alt="periscope">
+            </div>
+        </div>
     </footer>
 </template>
 
@@ -42,34 +101,5 @@ export default {
 
 <style lang="scss" scoped>
     @import '@/style/variables.scss';
-
-    .ft-top {
-        height: 150px;
-        background-color: $blue-dc;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 0 30px;
-
-        ul {
-            display: flex;
-            
-            li {
-                display: flex;
-                align-items: center;
-                text-transform: uppercase;
-                margin-right: 35px;
-                color: #fff;
-            }
-        
-            li > img {
-                width: 45px;
-                height: 60px;
-                margin-right: 10px ;
-            }
-        }
-    }
-
-
-
+    @import '@/style/footerDc.scss';
 </style>
