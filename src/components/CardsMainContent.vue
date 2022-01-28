@@ -58,7 +58,7 @@ main{
         justify-content: space-between;
 
         .card {
-            width: 200px;
+            width: calc(100% / 6);
             margin: 20px 0;
             color: #fff;
             font-size: 13px;
@@ -68,6 +68,8 @@ main{
                 width: 200px;
                 height: 200px;
                 padding: 10px;
+                object-position: top;
+                object-fit: cover;
             }
 
             > div {
