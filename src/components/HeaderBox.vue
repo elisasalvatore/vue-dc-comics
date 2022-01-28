@@ -6,16 +6,13 @@
 
       <nav>
         <ul>
-          <li>characters</li>
-          <li>comics</li>
-          <li>movies</li>
-          <li>tv</li>
-          <li>games</li>
-          <li>collectibles</li>
-          <li>videos</li>
-          <li>fans</li>
-          <li>news</li>
-          <li>shop</li>
+          <!-- <li v-for="(link, index) in nav" :key="index"> {{link}} </li>-->
+          <!-- <li v-for="link in nav" :key="link"> {{link}} </li> -->
+          <li v-for="button in nav" :key="button.id">
+            <a :href="button.id">
+              {{button}}
+            </a>
+          </li>    
         </ul>
       </nav>
   </header>
@@ -23,7 +20,23 @@
 
 <script>
 export default {
-  name: 'HeaderBox'
+  name: 'HeaderBox',
+  data() {
+    return {
+      nav: [
+        'Characters',
+        'Comics',
+        'Movies',
+        'TV',
+        'Games',
+        'Collectibles',
+        'Video',
+        'Fans',
+        'News',
+        'Shop'
+      ]
+    }
+  }
 }
 </script>
 
