@@ -1,7 +1,5 @@
 <template>
-    <div class="jumbo">
-         CONTENT GOES HERE
-    </div>
+    <div class="jumbo"></div>
 </template>
 
 <script>
